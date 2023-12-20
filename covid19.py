@@ -20,6 +20,7 @@ for name in names:
     st.sidebar.write(name)
 st.sidebar.title("Under The Guidance of :")
 st.sidebar.write("Dr.Bomma.Ramakrishna")
+st.sidebar.write("Tulasi Raju")
 # File upload
 uploaded_file = st.file_uploader("Choose a COVID-19 Dataset csv")
 if uploaded_file is not None:
